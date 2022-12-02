@@ -1,7 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./logo.svg";
+import "./App.css";
+import React from "react";
 
 function App() {
+  // const myref = React.useRef();
   return (
     <div className="App">
       <header className="App-header">
@@ -21,5 +23,6 @@ function App() {
     </div>
   );
 }
+console.log(App());
 
 export default App;
